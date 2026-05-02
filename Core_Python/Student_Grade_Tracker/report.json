@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Emma",
+        "average": 93.67,
+        "grade": "A",
+        "marks": {
+            "math": 95,
+            "science": 92,
+            "english": 94
+        }
+    },
+    {
+        "name": "Alice",
+        "average": 91.67,
+        "grade": "A",
+        "marks": {
+            "math": 92,
+            "science": 88,
+            "english": 95
+        }
+    },
+    {
+        "name": "John",
+        "average": 84.33,
+        "grade": "B",
+        "marks": {
+            "math": 85,
+            "science": 90,
+            "english": 78
+        }
+    },
+    {
+        "name": "Bob",
+        "average": 75.0,
+        "grade": "B",
+        "marks": {
+            "math": 70,
+            "science": 75,
+            "english": 80
+        }
+    }
+]
