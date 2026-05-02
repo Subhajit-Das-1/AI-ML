@@ -1,0 +1,11 @@
+{
+    "level_counts": {
+        "ERROR": 3,
+        "INFO": 1,
+        "WARNING": 1
+    },
+    "top_errors": {
+        "Database failed": 2,
+        "Connection timeout": 1
+    }
+}
