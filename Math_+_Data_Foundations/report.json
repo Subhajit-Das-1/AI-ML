@@ -1,0 +1,159 @@
+{
+  "source_file": "students.csv",
+  "total_students": 30,
+  "summary_stats": {
+    "math": {
+      "mean": 68.97,
+      "median": 70.0,
+      "std": 9.73,
+      "min": 49.0,
+      "max": 93.0,
+      "p25": 62.25,
+      "p75": 75.0
+    },
+    "physics": {
+      "mean": 64.93,
+      "median": 63.5,
+      "std": 15.97,
+      "min": 32.0,
+      "max": 100.0,
+      "p25": 58.5,
+      "p75": 73.75
+    },
+    "english": {
+      "mean": 73.4,
+      "median": 74.5,
+      "std": 12.4,
+      "min": 43.0,
+      "max": 97.0,
+      "p25": 67.5,
+      "p75": 81.25
+    },
+    "avg": {
+      "mean": 69.1,
+      "median": 69.16,
+      "std": 7.43,
+      "min": 54.0,
+      "max": 83.33,
+      "p25": 64.08,
+      "p75": 75.16
+    },
+    "attendance": {
+      "mean": 80.0,
+      "median": 81.0,
+      "std": 10.03,
+      "min": 60.0,
+      "max": 98.0,
+      "p25": 74.0,
+      "p75": 88.75
+    }
+  },
+  "grade_distribution": {
+    "A": 3,
+    "B": 12,
+    "C": 12,
+    "D": 3
+  },
+  "top_5_performers": [
+    {
+      "name": "Riya",
+      "math": 84,
+      "physics": 92,
+      "english": 74,
+      "avg": 83.33,
+      "grade": "A"
+    },
+    {
+      "name": "Deepika",
+      "math": 72,
+      "physics": 100,
+      "english": 72,
+      "avg": 81.33,
+      "grade": "A"
+    },
+    {
+      "name": "Pallavi",
+      "math": 69,
+      "physics": 75,
+      "english": 97,
+      "avg": 80.33,
+      "grade": "A"
+    },
+    {
+      "name": "Tanvi",
+      "math": 68,
+      "physics": 74,
+      "english": 92,
+      "avg": 78.0,
+      "grade": "B"
+    },
+    {
+      "name": "Ananya",
+      "math": 93,
+      "physics": 63,
+      "english": 75,
+      "avg": 77.0,
+      "grade": "B"
+    }
+  ],
+  "bottom_5_performers": [
+    {
+      "name": "Sneha",
+      "math": 75,
+      "physics": 33,
+      "english": 54,
+      "avg": 54.0,
+      "grade": "D"
+    },
+    {
+      "name": "Meera",
+      "math": 75,
+      "physics": 32,
+      "english": 59,
+      "avg": 55.33,
+      "grade": "D"
+    },
+    {
+      "name": "Divya",
+      "math": 49,
+      "physics": 55,
+      "english": 69,
+      "avg": 57.67,
+      "grade": "D"
+    },
+    {
+      "name": "Arun",
+      "math": 50,
+      "physics": 60,
+      "english": 70,
+      "avg": 60.0,
+      "grade": "C"
+    },
+    {
+      "name": "Ishaan",
+      "math": 64,
+      "physics": 64,
+      "english": 61,
+      "avg": 63.0,
+      "grade": "C"
+    }
+  ],
+  "at_risk_count": 9,
+  "correlation_matrix": {
+    "math": {
+      "math": 1.0,
+      "physics": -0.008,
+      "english": 0.017
+    },
+    "physics": {
+      "math": -0.008,
+      "physics": 1.0,
+      "english": -0.022
+    },
+    "english": {
+      "math": 0.017,
+      "physics": -0.022,
+      "english": 1.0
+    }
+  }
+}
